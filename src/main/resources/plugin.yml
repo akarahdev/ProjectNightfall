@@ -1,0 +1,35 @@
+name: SkyBlock
+version: '${project.version}'
+main: me.endistic.skyblock.SkyBlock
+api-version: '1.20'
+load: STARTUP
+
+commands:
+  sbi:
+    description: Get an item!
+  sbil:
+    description: Get an item!
+  spawnmob:
+    description: Spawn a mob!
+  sps:
+    description: Set your powerstone!
+  npcdialogue:
+    description: Use a NPC dialogue!
+  reload:
+    description: Reload
+    usage: /reload don't
+  setrank:
+    description: Set a player's rank
+    usage: /setrank <player> <rank id>
+  setxp:
+    description: Set the XP of a player
+    usage: /setxp <player> <amount>
+  viewprofile:
+    description: View a profile of a player
+    usage: /viewprofile <player>
+  kick:
+    description: Kick a player
+    usage: /kick <player> <reason>
+  se:
+    description: Apply a status effect
+    usage: /se <effect id> <amplifier> <duration in ticks>
